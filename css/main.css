@@ -61,6 +61,7 @@ span {
 .con-link:focus {
 	color: var(--accent-color);
 }
+/* hero */
 .overlay {
 	color: var(--over-txt-color);
 	background-color: grey;
@@ -83,4 +84,21 @@ button {
 	letter-spacing: 0.06em;
 	background-color: var(--accent-color);
 	color: var(--over-txt-color);
+}
+/* features with hidden h2 */
+.features {
+	background-color: var(--features-bg-color);
+}
+.feature-name {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.feature-desc {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
 }
