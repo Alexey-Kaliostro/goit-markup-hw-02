@@ -86,6 +86,9 @@ button {
 	color: var(--over-txt-color);
 }
 /* features with hidden h2 */
+.hidden {
+	display: none;
+}
 .features {
 	background-color: var(--features-bg-color);
 }
@@ -117,16 +120,38 @@ h3.overlay {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
-.team h3 {
-	font-size: 16px;
-	line-height: 1.18;
-
-	text-align: center;
-	letter-spacing: 0.03em;
-}
+.team h3,
 .position {
 	font-size: 16px;
 	line-height: 1.18;
 	text-align: center;
+	letter-spacing: 0.03em;
+}
+/* footer */
+.footer-logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.15;
+	letter-spacing: 0.03em;
+	color: var(--over-txt-color);
+	text-decoration: none;
+}
+footer p,
+.map {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--over-txt-color);
+}
+footer a {
+	color: rgba(255, 255, 255, 0.6);
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	text-decoration: none;
 	letter-spacing: 0.03em;
 }
