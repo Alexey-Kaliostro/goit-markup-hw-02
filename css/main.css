@@ -11,7 +11,7 @@
 }
 /* fonts
 font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; 
+font-family: 'Roboto', sans-serif;
 */
 /*body main bg color and fonts, other main colors and styles */
 body {
@@ -45,6 +45,10 @@ span {
 	color: var(--main-txt-color);
 	text-decoration: none;
 }
+.nav-link {
+	color: var(--main-txt-color);
+}
+
 .nav-link,
 .con-link {
 	font-weight: 500;
@@ -54,13 +58,12 @@ span {
 	text-decoration: none;
 }
 .nav-link:hover,
-.nav-link:focus {
-	color: var(--accent-color);
-}
+.nav-link:focus,
 .con-link:hover,
 .con-link:focus {
 	color: var(--accent-color);
 }
+
 /* hero */
 .overlay {
 	color: var(--over-txt-color);
@@ -76,8 +79,7 @@ h1 {
 }
 button {
 	font-family: "Roboto", sans-serif;
-	/*В фигме указано болд, но мне визуально кажется, что нет*/
-	/*font-weight: bold;*/
+	font-weight: bold;
 	font-size: 16px;
 	line-height: 1.87;
 	text-align: center;
@@ -93,7 +95,6 @@ button {
 	background-color: var(--features-bg-color);
 }
 .feature-name {
-	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 1.14;
@@ -120,6 +121,9 @@ h3.overlay {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
+.team h3 {
+	font-weight: 500;
+}
 .team h3,
 .position {
 	font-size: 16px;
@@ -137,9 +141,13 @@ h3.overlay {
 	color: var(--over-txt-color);
 	text-decoration: none;
 }
+footer .map {
+	font-style: normal;
+	font-weight: normal;
+	text-transform: inherit;
+}
 footer p,
 .map {
-	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 1.14;
@@ -149,6 +157,7 @@ footer p,
 }
 footer a {
 	color: rgba(255, 255, 255, 0.6);
+	font-weight: normal;
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
