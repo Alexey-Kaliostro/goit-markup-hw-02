@@ -11,8 +11,8 @@
 }
 /* fonts
 font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
+font-family: 'Roboto', sans-serif; */
+
 /*body main bg color and fonts, other main colors and styles */
 body {
 	background-color: var(--main-bg-color);
@@ -48,7 +48,6 @@ span {
 .nav-link {
 	color: var(--main-txt-color);
 }
-
 .nav-link,
 .con-link {
 	font-weight: 500;
@@ -56,6 +55,9 @@ span {
 	line-height: 1.15;
 	letter-spacing: 0.02em;
 	text-decoration: none;
+}
+.nav-link.active {
+	color: var(--accent-color);
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -165,6 +167,7 @@ footer a {
 	letter-spacing: 0.03em;
 }
 /* -=P O R T F O L I O=- */
+
 .filters button {
 	font-weight: 500;
 	font-size: 16px;
@@ -179,6 +182,7 @@ footer a {
 	background-color: var(--accent-color);
 	color: var(--over-txt-color);
 }
+
 .portfolio h3 {
 	font-weight: bold;
 	font-size: 18px;
@@ -190,4 +194,19 @@ footer a {
 	line-height: 1.87;
 	letter-spacing: 0.03em;
 	color: var(--sec-txt-color);
+}
+.filters .selected {
+	background-color: var(--accent-color);
+	color: var(--over-txt-color);
+}
+.portfolio a {
+	color: var(--main-txt-color);
+	text-decoration: none;
+}
+.porfolio .overlay {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.55;
+	letter-spacing: 0.03em;
 }
